@@ -17,7 +17,17 @@ describe("Calculator function", () => {
  
      });
 
+     test("it should multiply two number", () => {
 
+      expect(mult(2,2)).toBe(4);
+
+     });
+
+     test("it should divide two number", () => {
+
+      expect(div(6,2)).toBe(3);
+
+     });
 
   // TODO : test mult and sub function 
 

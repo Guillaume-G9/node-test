@@ -6,9 +6,13 @@ class Player {
         this.sante = sante; 
       }
 
-    //   removeMoney(less){
-    //       this.argent -= less
-    //   }
+      removeMoney(less){
+          this.argent -= less
+      }
+
+      addMoney(more){
+        this.argent += more
+      }
 }
 
 

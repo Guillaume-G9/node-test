@@ -10,17 +10,18 @@ describe("Player", () => {
     expect(sandrine.name).toBe('Sandrine')
     expect(sandrine.age).toBe(25)
 
+    
     });
 
 
 
   // TODO : add two methods, addMoney and removeMoney
 
-
   test("money should be equal to 1000", () => {
-      
+    
     const sandrine = new Player('Sandrine',25,5000,100)
-    sandrine.removeMoney(4000)
+    sandrine.addMoney(1000)
+    sandrine.removeMoney(5000)
     expect(sandrine.argent).toBe(1000)
 
     });
